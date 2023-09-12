@@ -1,15 +1,15 @@
 import java.util.ArrayList;
 
 public class Coffee{
-  protected  int milk;
-   protected  int water;
-   protected  int coffeeBeans;
-   protected   int moneyBox ;
-   protected  int coffeeCount ;
-   protected  int consumeMilk;
-   protected  int consumeWater;
-   protected  int consumeCoffeeBeans;
-   protected  int totalMoneyEaened;
+  private  int milk;
+   private  int water;
+   private  int coffeeBeans;
+   private   int moneyBox ;
+   private  int coffeeCount ;
+   private  int consumeMilk;
+   private  int consumeWater;
+   private  int consumeCoffeeBeans;
+   private  int totalMoneyEaened;
 
  public String addIngredients(int milks,int waterr,int coffeeBeanss){
         milk+=milks;
